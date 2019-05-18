@@ -43,7 +43,7 @@
     <div class="word-list-container">
       <h2>Word List</h2>
       <ul class="word-list">
-        <transition-group name="slideRight" tag="div" appear>
+        <transition-group name="rotateUpLeft" tag="div" appear>
           <li v-for="word in wordList" :key="word">
             {{ word }}&nbsp;
             <button v-on:click="removeWord(word)" class="remove-word">x</button>

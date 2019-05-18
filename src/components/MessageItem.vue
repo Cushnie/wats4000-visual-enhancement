@@ -6,7 +6,6 @@
     </li>
   </transition>
 </template>
-
 <script>
 require('vue2-animate/dist/vue2-animate.min.css');
 // Each Message Item expects a `message` object.
